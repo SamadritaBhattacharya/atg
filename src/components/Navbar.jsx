@@ -23,7 +23,7 @@ const Navbar = () => {
             placeholder='Search'
             className='p-2 ml-2 font-medium focus:bg-neutral-200 text-zinc-600 text-xl bg-transparent'
           />
-          <span className='bg-purple-800 py-2 px-3 flex justify-center items-center rounded-r-full'>
+          <span className='bg-[#8064A2] py-2 px-3 flex justify-center items-center rounded-r-full'>
             <Search size={30} className='text-white' />
           </span>
         </div>
@@ -31,7 +31,7 @@ const Navbar = () => {
         {/* Explore and Hobbies Links (Hidden on small screens) */}
         <div className='hidden lg:flex w-[22%] gap-2 justify-between'>
           <div className='relative flex items-center gap-1'>
-            <span className='bg-purple-800 rounded-full p-1'>
+            <span className='bg-[#8064A2] rounded-full p-1'>
               <Navigation size={24} className='text-white' />
             </span>
             <button  onClick={toggleExploreDropdown} className='flex gap-2'>
@@ -57,7 +57,7 @@ const Navbar = () => {
           <button>
 
           <div className='flex items-center gap-1'>
-            <span className='bg-purple-800 rounded-full p-1'>
+            <span className='bg-[#8064A2]  rounded-full p-1'>
               <Sparkles size={24} className='text-white' />
             </span>
             <span className='text-base font-bold text-zinc-700'>Hobbies</span>
@@ -67,9 +67,9 @@ const Navbar = () => {
 
         {/* Buttons (Sign In, Bookmark, Bell, Cart) */}
         <div className='hidden lg:flex w-[20%] justify-between items-center'>
-          <Bookmark size={30} className='text-purple-900' />
-          <Bell size={30} className='text-purple-900' />
-          <ShoppingCart size={30} className='text-purple-900' />
+          <Bookmark size={30} className='fill-[#8064A2] text-transparent' />
+          <Bell size={30} className='fill-[#8064A2] text-transparent' />
+          <ShoppingCart size={30} className='fill-[#8064A2] text-transparent' />
           <div className='rounded-xl text-xl p-2 font-medium text-purple-900 ring-purple-600 ring-1'>
             Sign In
           </div>
