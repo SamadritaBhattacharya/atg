@@ -4,12 +4,12 @@ import React from 'react'
 const Community = () => {
   return (
     <div className=' w-full p-4 lg:p-8'>
-        <div className=' w-full lg:w-[98%] mx-auto rounded-lg bg-neutral-200'>
-            <div className=' p-8'>
+        <div className=' w-full lg:w-[98%] mx-auto rounded-xl bg-[#F7FDFF]'>
+            <div className=' p-8 space-y-0 lg:space-y-2'>
                 <div className=' py-4 text-xl lg:text-5xl font-semibold'>
-                    You <span className=' text-purple-700'>Hobby</span> , Your <span className=' text-sky-500'>Community...</span>
+                    You <span className=' text-[#8064A2]'>Hobby</span> , Your <span className=' text-[#0096C8]'>Community...</span>
                 </div>
-                <button className=' bg-purple-700 p-2 rounded-xl text-white opacity-80'>Get Started</button>
+                <button className=' bg-[#8064A2] p-2 rounded-xl text-white'>Get Started</button>
             </div>
 
             <div className='flex items-center justify-center'>

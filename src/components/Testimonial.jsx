@@ -3,16 +3,16 @@ import Image from 'next/image';
 
 const Testimonial = () => {
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col lg:flex-row items-center justify-center p-6">
-      <div className="bg-slate-100 rounded-lg lg:p-12  shadow-md p-8 w-4xl lg:w-[90%] mx-auto">
+    <div className="min-h-screen  flex flex-col lg:flex-row items-center justify-center p-6">
+      <div className="bg-[#F7F5F9] rounded-lg lg:p-12  shadow-lg p-8 w-4xl lg:w-[90%] mx-auto">
         {/* Header */}
         <div className="flex items-center mb-6">
-          <Quote className="w-6 h-6 text-purple-600 mr-2" />
+          <Image src={'/Vector (3).png'} height={60} width={60} className="w-8 h-8 text-purple-600 mr-2" />
           <h3 className="text-xl lg:text-3xl font-semibold text-gray-800">Testimonials</h3>
         </div>
 
         {/* Testimonial Text */}
-        <p className="text-gray-600 text-base lg:text-xl mb-6 lg:mb-10">
+        <p className="text-gray-600 text-justify text-sm lg:text-xl mb-6 lg:mb-10">
           In a fast-growing and ever-changing city like Bangalore, it sometimes becomes very difficult to find or connect with like-minded people. Websites like hobbycue.com is a great service which helps me get in touch with, communicate, connect, and exchange ideas with other dancers. It also provides the extra benefit of finding products and services that I can avail, which I can be assured is going to be of great quality as it comes recommended by people of the hobbycue community. To have discussions, to get visibility, and to be able to safely explore various hobbies and activities in my city, all under one roof, is an excellent idea and I highly recommend it.
         </p>
 

@@ -5,7 +5,7 @@ const CardsGrid = () => {
     <div className="min-h-screen bg-gray-50 p-4 flex items-center justify-center">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl w-full ">
         {/* People Card */}
-        <div className="group border rounded-lg shadow-lg p-10 flex flex-col items-start justify-between w-[98%] lg:w-[90%] mx-auto hover:transform-gpu transition-transform hover:scale-110 hover:bg-purple-800 hover:opacity-80">
+        <div className="group border rounded-lg shadow-lg p-10 flex flex-col items-start justify-between w-[98%] lg:w-[90%] mx-auto hover:transform-gpu transition-all hover:scale-110 hover:bg-purple-800 hover:opacity-80">
           <div className="flex items-center mb-4">
             <Users className="text-purple-600 group-hover:text-white w-6 h-6 mr-2" />
             <h3 className="text-xl font-semibold text-gray-800 group-hover:text-white">People</h3>
@@ -19,7 +19,7 @@ const CardsGrid = () => {
         </div>
 
         {/* Place Card */}
-        <div className="group border rounded-lg shadow-lg p-10 flex flex-col items-start justify-between w-[98%] lg:w-[90%] mx-auto hover:transform-gpu transition-transform hover:scale-110 hover:bg-green-700 hover:opacity-80">
+        <div className="group border rounded-lg shadow-lg p-10 flex flex-col items-start justify-between w-[98%] lg:w-[90%] mx-auto hover:transform-gpu transition-all hover:scale-110 hover:bg-green-700 hover:opacity-80">
           <div className="flex items-center mb-4">
             <MapPin className="text-green-600 group-hover:text-white w-6 h-6 mr-2" />
             <h3 className="text-xl font-semibold text-gray-800 group-hover:text-white">Place</h3>
@@ -33,7 +33,7 @@ const CardsGrid = () => {
         </div>
 
         {/* Product Card */}
-        <div className="group border rounded-lg shadow-lg p-10 flex flex-col items-start justify-between w-[98%] lg:w-[90%] mx-auto hover:transform-gpu transition-transform hover:scale-110 hover:bg-rose-700 hover:opacity-80">
+        <div className="group border rounded-lg shadow-lg p-10 flex flex-col items-start justify-between w-[98%] lg:w-[90%] mx-auto hover:transform-gpu transition-all hover:scale-110 hover:bg-rose-700 hover:opacity-80">
           <div className="flex items-center mb-4">
             <Package className="text-red-600 group-hover:text-white w-6 h-6 mr-2" />
             <h3 className="text-xl font-semibold text-gray-800 group-hover:text-white">Product</h3>
@@ -47,7 +47,7 @@ const CardsGrid = () => {
         </div>
 
         {/* Program Card */}
-        <div className="group border rounded-lg shadow-lg p-10 flex flex-col items-start justify-between w-[98%] lg:w-[90%] mx-auto hover:transform-gpu transition-transform hover:scale-110 hover:bg-sky-600 hover:opacity-80">
+        <div className="group border rounded-lg shadow-lg p-10 flex flex-col items-start justify-between w-[98%] lg:w-[90%] mx-auto hover:transform-gpu transition-all  hover:scale-110 hover:bg-sky-600 hover:opacity-80">
           <div className="flex items-center mb-4">
             <Calendar className="text-blue-600 group-hover:text-white w-6 h-6 mr-2" />
             <h3 className="text-xl font-semibold text-gray-800 group-hover:text-white">Program</h3>

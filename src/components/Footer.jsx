@@ -1,4 +1,5 @@
 import { Facebook, Github, Instagram, Linkedin,  Twitter } from 'lucide-react'; 
+import Image from 'next/image';
 
 const Footer = () => {
   return (
@@ -42,19 +43,25 @@ const Footer = () => {
             </ul>
           </div>
           
-         
-          <div className="flex flex-col">
+          
+          <div className="flex flex-col space-y-6">
+            <div>
             <h5 className="font-bold text-lg mb-4">Social Media</h5>
-            <div className="flex space-x-4 mb-4">
+            {/* <div className="flex space-x-4 mb-4">
               <a href="#" className="text-gray-600 hover:text-gray-900"><Facebook /></a>
               <a href="#" className="text-gray-600 hover:text-gray-900"><Twitter /></a>
               <a href="#" className="text-gray-600 hover:text-gray-900"><Instagram /></a>
               <a href="#" className="text-gray-600 hover:text-gray-900"><Linkedin /></a>
               <a href="#" className="text-gray-600 hover:text-gray-900"><Github /></a>
               
-            </div>
+            </div> */}
 
-            
+          <Image src={'/Group 64.png'} width={400} height={300} className='h-[24px] w-[90%] mx-auto lg:mx-0 lg:w-[360] mb' />
+          </div>
+         
+
+            <div className=' '>
+            <h5 className="font-bold text-lg mb-4">Invite Friends</h5>
             <div className="flex">
               <input 
                 type="email" 
@@ -62,7 +69,7 @@ const Footer = () => {
                 className="p-2 border border-gray-300 rounded-l-md focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
               />
               <button className="bg-purple-600 text-white px-4 rounded-r-md">Invite</button>
-            </div>
+            </div></div>
           </div>
         </div>
         

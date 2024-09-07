@@ -1,19 +1,19 @@
-import { PlusCircle } from 'lucide-react'
+import { Plus, PlusCircle } from 'lucide-react'
 import React from 'react'
 
 const AddOwn = () => {
   return (
-    <div className=' w-full lg:p-4 p-2 flex items-center '>
-        <div className=' bg-gray-200 w-full lg:w-[96%] mx-auto rounded-xl p-4'>
+    <div className=' w-full lg:p-8 p-4 flex items-center justify-center bg-[#F7FDFF] '>
+        <div className=' bg-white border-gray-100 shadow-md w-[98%] lg:w-[92%] mx-auto rounded-xl p-4 lg:p-10'>
             <div className='   p-2 flex items-center gap-3'>
-                <PlusCircle size={30} className=' fill-blue-500 rounded-full text-white font-normal ' />
+                <Plus size={30} className=' bg-[#0096C8] rounded-full text-white font-normal ' />
                 <div className=' text-2xl font-bold'>
                     Add your own
                 </div>
                 
             </div>
 
-            <div className=' py-2'>
+            <div className=' py-2 w-[96%] mx-auto'>
                 <p className=' text-sm lg:text-xl'>
                 Are you a teacher or expert? Do you sell or rent out equipment, venue or event tickets? Or, you know someone who should be on hobbycue? Go ahead and Add your Own page
                 </p>

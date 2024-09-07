@@ -1,19 +1,26 @@
 import { Bell, Bookmark, ChevronDown, Search, ShoppingCart, Sparkles, Menu, Navigation } from 'lucide-react'
+import Image from 'next/image';
 import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className='bg-slate-50 border-slate-200 shadow-lg w-full h-16 flex items-center justify-between'>
+    <div className='bg-white border-slate-200 shadow-lg w-full h-16 flex items-center justify-between'>
       <div className='w-[98%] mx-auto h-[90%] flex items-center justify-between'>
         
-        {/* Logo */}
-        <div className='w-[18%]'>
-          <img src='./Logo.png' alt='Logo' />
+        
+        <div className='lg:w-[18%] w-[60%]'>
+         
+          <Image src={'/Logo.png'} height={300} width={300} />
         </div>
 
-        {/* Search Bar (Hidden on small screens) */}
+        
         <div className='hidden lg:flex w-[28%] text-lg bg-stone-200 rounded-full justify-between'>
-          <span className='p-2 ml-2 font-medium text-zinc-600 text-xl'>Search</span>
+          <input 
+          placeholder='Search'
+          className='p-2 ml-2 font-medium focus:bg-neutral-200 text-zinc-600 text-xl bg-transparent'>
+          
+          </input>
+          {/* <span className='p-2 ml-2 font-medium text-zinc-600 text-xl'>Search</span> */}
           <span className='bg-purple-800 py-2 px-3 flex justify-center items-center rounded-r-full'>
             <Search size={30} className='text-white' />
           </span>

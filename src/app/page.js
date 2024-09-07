@@ -11,7 +11,7 @@ export default function Home() {
 
     <div>
 
-    <div className=" bg-stone-300 lg:h-[90vh] h-full w-full p-2 lg:p-4 flex justify-between ">
+    <div className=" bg-[#F7F5F9] shadow-xl lg:h-[90vh] h-full w-full px-2 py-4 lg:p-4 flex justify-between ">
       <div className=" w-[96%] lg:w-[66%] mx-auto">
        
         <div className="  h-full   py-2">
