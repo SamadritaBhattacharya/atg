@@ -1,4 +1,4 @@
-import { Facebook, Github, Instagram, Linkedin, LucideIcon, Twitter } from 'lucide-react'; // for icons, assuming you're using Lucide-react
+import { Facebook, Github, Instagram, Linkedin,  Twitter } from 'lucide-react'; 
 
 const Footer = () => {
   return (
